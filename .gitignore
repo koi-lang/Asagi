@@ -19,6 +19,13 @@
 docs.json
 __dummy.html
 docs/
+dub_init_error_log.txt
 
 # Code coverage
 *.lst
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
