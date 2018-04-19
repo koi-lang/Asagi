@@ -1,11 +1,11 @@
-module core.KoiValue;
+module asagi.core.KoiValue;
 
 import std.stdio;
 
-import core.KoiObject;
-import core.types.KoiBoolean;
-import core.types.KoiCharacter;
-import core.types.KoiInteger;
+import asagi.core.KoiObject;
+import asagi.core.types.KoiBoolean;
+import asagi.core.types.KoiCharacter;
+import asagi.core.types.KoiInteger;
 
 abstract class KoiValue : KoiObject {
     override KoiBoolean asBoolean() {

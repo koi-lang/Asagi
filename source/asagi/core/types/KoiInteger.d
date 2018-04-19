@@ -1,8 +1,8 @@
-module core.types.KoiInteger;
+module asagi.core.types.KoiInteger;
 
 import std.stdio;
 
-import core.KoiValue;
+import asagi.core.KoiValue;
 
 class KoiInteger : KoiValue {
     public int value;

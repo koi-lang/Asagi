@@ -1,8 +1,8 @@
-module core.types.KoiCharacter;
+module asagi.core.types.KoiCharacter;
 
 import std.stdio;
 
-import core.KoiValue;
+import asagi.core.KoiValue;
 
 class KoiCharacter : KoiValue {
     public char value;

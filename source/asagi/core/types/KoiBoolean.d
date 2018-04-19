@@ -1,8 +1,8 @@
-module core.types.KoiBoolean;
+module asagi.core.types.KoiBoolean;
 
 import std.stdio;
 
-import core.KoiValue;
+import asagi.core.KoiValue;
 
 class KoiBoolean : KoiValue {
     public bool value;
