@@ -1,8 +1,9 @@
 module core.types.KoiCharacter;
 
 import std.stdio;
+import core.KoiObject;
 
-class KoiCharacter {
+class KoiCharacter : KoiObject {
     public char value;
 
     this(char inValue) {

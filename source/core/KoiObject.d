@@ -4,6 +4,6 @@ import std.stdio;
 import core.types.KoiBoolean;
 
 class KoiObject {
-    abstract KoiBoolean asBoolean() { return new KoiBoolean(true); }
+    KoiBoolean asBoolean() { return new KoiBoolean(true); }
 }
 
