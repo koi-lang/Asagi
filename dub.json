@@ -1,0 +1,9 @@
+{
+	"name": "asagi",
+	"authors": [
+		"DeflatedPickle"
+	],
+	"description": "A Koi interpreter.",
+	"copyright": "Copyright © 2018, koi-lang",
+	"license": "MIT"
+}
