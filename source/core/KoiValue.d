@@ -7,7 +7,7 @@ import core.types.KoiBoolean;
 import core.types.KoiCharacter;
 import core.types.KoiInteger;
 
-class KoiValue : KoiObject {
+abstract class KoiValue : KoiObject {
     override KoiBoolean asBoolean() {
         return new KoiBoolean(true);
     }
