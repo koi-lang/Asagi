@@ -1,9 +1,10 @@
 module core.types.KoiBoolean;
 
 import std.stdio;
-import core.KoiObject;
 
-class KoiBoolean : KoiObject {
+import core.KoiValue;
+
+class KoiBoolean : KoiValue {
     public bool value;
 
     this(bool inValue) {

@@ -1,16 +1,17 @@
 module core.types.KoiInteger;
 
 import std.stdio;
-import core.KoiObject;
 
-class KoiInteger : KoiObject {
+import core.KoiValue;
+
+class KoiInteger : KoiValue {
     public int value;
 
     this(int inValue) {
         value = inValue;
     }
 
-    KoiInteger asInteger() {
+    override KoiInteger asInteger() {
         return new KoiInteger(value);
     }
 }
