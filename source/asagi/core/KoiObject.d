@@ -9,6 +9,10 @@ import asagi.core.types.KoiString;
 import asagi.core.collections.KoiArray;
 
 abstract class KoiObject {
+    override string toString() {
+        return "";
+    }
+
     abstract KoiBoolean asBoolean();
     abstract KoiCharacter asCharacter();
     abstract KoiInteger asInteger();
