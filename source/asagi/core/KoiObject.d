@@ -9,10 +9,12 @@ import asagi.core.types.KoiString;
 import asagi.core.collections.KoiArray;
 
 abstract class KoiObject {
+    // Convert to D types
     override string toString() {
         return "";
     }
 
+    // Convert to Koi types
     abstract KoiBoolean asBoolean();
     abstract KoiCharacter asCharacter();
     abstract KoiInteger asInteger();

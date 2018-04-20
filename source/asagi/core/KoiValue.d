@@ -1,6 +1,7 @@
 module asagi.core.KoiValue;
 
 import std.stdio;
+import std.conv;
 
 import asagi.core.KoiObject;
 import asagi.core.types.KoiBoolean;
