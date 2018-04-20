@@ -21,3 +21,8 @@ abstract class KoiReference : KoiObject {
         return new KoiInteger(0);
     }
 
+    override KoiString asString() {
+        return new KoiString([new KoiCharacter(' ')]);
+    }
+}
+
