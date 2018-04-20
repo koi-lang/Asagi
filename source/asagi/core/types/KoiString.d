@@ -4,26 +4,18 @@ import std.stdio;
 import std.conv;
 import std.string;
 
-import asagi.core.KoiObject;
-import asagi.core.types.KoiCharacter;
+import asagi.core.KoiReference;
 import asagi.core.collections.KoiArray;
 
-class KoiString : KoiArray {
-    public KoiCharacter[] value;
+class KoiString : KoiReference {
+    public string value;
 
-    this(KoiCharacter[] inValue) {
-        super(cast(KoiObject[]) inValue);
+    this(string inValue) {
         value = inValue;
     }
 
     override string toString() {
-        char[] str = [];
-
-        foreach (int index, KoiCharacter item; value) {
-            str ~= item.value;
-        }
-
-        return to!string(str);
+        return to!string(value);
     }
 
     override KoiString asString() {
